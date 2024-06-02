@@ -24,7 +24,7 @@ namespace CanteenApp.Pages
         public void Display()
         {
             DBCategory category = new DBCategory();
-            category.DisplayAndSearch("SELECT * FROM categories", dgvCategory);
+            category.DisplayAndSearch("SELECT * FROM categories ORDER BY id", dgvCategory);
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -42,7 +42,7 @@ namespace CanteenApp.Pages
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             DBCategory dBCategory = new DBCategory();
-            dBCategory.DisplayAndSearch("SELECT * FROM categories WHERE name ILIKE '%" + txtSearch.Text + "%'",dgvCategory);
+            dBCategory.DisplayAndSearch("SELECT * FROM categories WHERE name ILIKE '%" + txtSearch.Text + "%' ORDER BY id",dgvCategory);
         }
 
         private void dgvCategory_CellClick(object sender, DataGridViewCellEventArgs e)

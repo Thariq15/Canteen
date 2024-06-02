@@ -236,6 +236,7 @@
             this.content.Dock = System.Windows.Forms.DockStyle.Fill;
             this.content.Location = new System.Drawing.Point(220, 60);
             this.content.Name = "content";
+            this.content.Padding = new System.Windows.Forms.Padding(10);
             this.content.Size = new System.Drawing.Size(604, 501);
             this.content.TabIndex = 2;
             // 
@@ -251,6 +252,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();

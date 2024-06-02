@@ -146,7 +146,8 @@ namespace CanteenApp
 
         private void logout_Click(object sender, EventArgs e)
         {
-            
+            UserSession.Logout();
+            this.Close();
         }
     }
 }

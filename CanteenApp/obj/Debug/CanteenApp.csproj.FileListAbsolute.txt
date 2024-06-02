@@ -47,3 +47,9 @@ C:\Users\Aex\source\repos\CanteenApp\CanteenApp\bin\Debug\System.Threading.Tasks
 C:\Users\Aex\source\repos\CanteenApp\CanteenApp\bin\Debug\System.ValueTuple.xml
 C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Forms.Product.resources
 C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Pages.ProductForm.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Pages.ShopForm.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Forms.Quantity.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Forms.Receipt.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Pages.HistoryForm.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Pages.LoginForm.resources
+C:\Users\Aex\source\repos\CanteenApp\CanteenApp\obj\Debug\CanteenApp.Pages.RegisterForm.resources

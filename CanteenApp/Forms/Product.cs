@@ -18,8 +18,7 @@ namespace CanteenApp.Forms
     public partial class Product : Form
     {
         private readonly ProductForm _parent;
-        public string id, name, price, stock, description, image;
-        public string[] categoryId;
+        public string id, name, price, stock, description, image, oldImage, category;
 
         private void imgProduct_Click(object sender, EventArgs e)
         {
@@ -27,6 +26,7 @@ namespace CanteenApp.Forms
             openFile.Filter = "File gambar (*.jpg; *.jpeg; *.png) | *.jpg; *.jpeg; *.png";
             if (openFile.ShowDialog() == DialogResult.OK)
             {
+                oldImage = image;
                 image = openFile.FileName;
                 imgProduct.IconChar = FontAwesome.Sharp.IconChar.None;
                 imgProduct.BackgroundImage = new Bitmap(openFile.FileName);
@@ -52,66 +52,91 @@ namespace CanteenApp.Forms
         {
             labelHeader.Text = "Update Product";
             btnAdd.Text = "Update";
-            foreach (var item in categoryId)
-            {
-                cbxCategory.Items.Add(item);
-            }
             txtName.Text = name;
             txtStock.Text = stock;
             txtPrice.Text = price;
             txtDescription.Text = description;
+            cbxCategory.SelectedItem = category;
+            string assemblyLocation = Assembly.GetExecutingAssembly().Location;
+            string currentImg = Directory.GetParent(assemblyLocation).Parent.Parent.FullName + @"\Images\" + image;
+            imgProduct.BackgroundImage = new Bitmap(currentImg);
+            imgProduct.ImageLocation = currentImg;
+            imgProduct.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         public void Clear()
         {
-            cbxCategory.Refresh();
+            cbxCategory.ResetText();
             txtName.Text = string.Empty;
             txtPrice.Text = string.Empty;
             txtStock.Text = string.Empty;
             txtDescription.Text= string.Empty;
+            imgProduct.BackgroundImage = null;
+            imgProduct.ImageLocation = null;
+            imgProduct.IconChar = FontAwesome.Sharp.IconChar.Image;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            //if (txtName.Text.Trim().Length == 0)
-            //{
-            //    MessageBox.Show("Nama harus diisi");
-            //    return;
-            //}
-            //if (txtPrice.Text.Trim().Length == 0)
-            //{
-            //    MessageBox.Show("Harga harus diisi");
-            //    return;
-            //}
-            //if (txtStock.Text.Trim().Length == 0)
-            //{
-            //    MessageBox.Show("Stok harus diisi");
-            //    return;
-            //}
-            //if (txtDescription.Text.Trim().Length == 0)
-            //{
-            //    MessageBox.Show("Deskripsi harus diisi");
-            //    return;
-            //}
-            //if (cbxCategory.Text.Trim().Length == 0)
-            //{
-            //    MessageBox.Show("Kategori harus diisi");
-            //    return;
-            //}
+            if (imgProduct.Image == null)
+            {
+                MessageBox.Show("Gambar harus diisi");
+                return;
+            }
+            if (cbxCategory.SelectedIndex == -1)
+            {
+                MessageBox.Show("Kategori harus dipilih");
+                return;
+            }
+            if (txtName.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Nama harus diisi");
+                return;
+            }
+            if (txtStock.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Stok harus diisi");
+                return;
+            }
+            if (txtPrice.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Harga harus diisi");
+                return;
+            }
+            if (txtDescription.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Deskripsi harus diisi");
+                return;
+            }
             if (btnAdd.Text == "Add")
             {
+                DateTime now = DateTime.Now;
+                DateTimeOffset dateTimeOffset = new DateTimeOffset(now);
+                long unixTimestamp = dateTimeOffset.ToUnixTimeSeconds();
+
                 DBProducts dBProducts = new DBProducts();
                 int categoryId = dBProducts.GetCategoryId(cbxCategory.Text);
-                ProductModel product = new ProductModel(categoryId.ToString(), txtName.Text.Trim(), Int32.Parse(txtPrice.Text.Trim()), Int32.Parse(txtStock.Text.Trim()), txtDescription.Text.Trim(), Path.GetFileName(imgProduct.ImageLocation));
-                dBProducts.AddProduct(product);
+                ProductModel product = new ProductModel(categoryId.ToString(), txtName.Text.Trim(), Int32.Parse(txtPrice.Text.Trim()), Int32.Parse(txtStock.Text.Trim()), txtDescription.Text.Trim(), unixTimestamp + Path.GetExtension(imgProduct.ImageLocation));
+
                 string assemblyLocation = Assembly.GetExecutingAssembly().Location;
-                File.Copy(image, Directory.GetParent(assemblyLocation).Parent.Parent.FullName + @"\Images\" + Path.GetFileName(imgProduct.ImageLocation));
+                File.Copy(image, Directory.GetParent(assemblyLocation).Parent.Parent.FullName + @"\Images\" + unixTimestamp + Path.GetExtension(imgProduct.ImageLocation));
+                dBProducts.AddProduct(product);
             }
             if (btnAdd.Text == "Update")
             {
-                CategoryModel categoryModel = new CategoryModel(txtName.Text.Trim());
-                DBCategory category = new DBCategory();
-                category.UpdateCategory(categoryModel, id);
+                image = imgProduct.ImageLocation;
+                DateTime now = DateTime.Now;
+                DateTimeOffset dateTimeOffset = new DateTimeOffset(now);
+                long unixTimestamp = dateTimeOffset.ToUnixTimeSeconds();
+
+                DBProducts dBProducts = new DBProducts();
+                int categoryId = dBProducts.GetCategoryId(cbxCategory.Text);
+                ProductModel product = new ProductModel(categoryId.ToString(), txtName.Text.Trim(), Int32.Parse(txtPrice.Text.Trim()), Int32.Parse(txtStock.Text.Trim()), txtDescription.Text.Trim(), unixTimestamp + Path.GetExtension(imgProduct.ImageLocation));
+
+                string assemblyLocation = Assembly.GetExecutingAssembly().Location;
+                File.Copy(image, Directory.GetParent(assemblyLocation).Parent.Parent.FullName + @"\Images\" + unixTimestamp + Path.GetExtension(imgProduct.ImageLocation));
+                dBProducts.UpdateProduct(product, id);
+                //dBProducts.DeleteImage(oldImage);
             }
             Clear();
             _parent.Display();

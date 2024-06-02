@@ -3,56 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\pages\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\pages\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|c:\\users\\aex\\source\\repos\\canteenapp\\canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -63,20 +99,64 @@
       "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\shopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\quantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\quantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\quantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\quantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\pages\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbtransactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbtransactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\transactionitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\transactionitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\controllers\\dbcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\controllers\\dbcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\forms\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|C:\\Users\\Aex\\source\\repos\\CanteenApp\\canteenapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101F6801-2F3A-4B71-919A-AF672FBAE76E}|CanteenApp\\CanteenApp.csproj|solutionrelative:canteenapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,6 +168,31 @@
           "DockedHeight": 271,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\CategoryForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\CategoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:28:40.275Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ProductForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\ProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:28:58.314Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -102,102 +207,428 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Product.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs",
-              "RelativeToolTip": "CanteenApp\\Forms\\Product.cs",
-              "ViewState": "AQIAAGMAAABgjJmZmZkswHQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:10:32.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\ProductModel.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Models\\ProductModel.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\ProductModel.cs",
-              "RelativeToolTip": "CanteenApp\\Models\\ProductModel.cs",
-              "ViewState": "AQIAAA0AAAAwmJmZmRkxwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T22:55:16.893Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ProductForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
-              "RelativeToolTip": "CanteenApp\\Pages\\ProductForm.cs",
-              "ViewState": "AQIAAA8AAAAAnZmZmZn5vxoAAABHAAAA",
+              "Title": "HistoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\HistoryForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\HistoryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:44:21.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryForm.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\CategoryForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
-              "RelativeToolTip": "CanteenApp\\Pages\\CategoryForm.cs",
-              "ViewState": "AQIAABwAAAAAAzMzMzPzvxwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:26:02.512Z"
+              "WhenOpened": "2024-05-10T13:29:28.098Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ProductForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Pages\\ProductForm.cs [Design]",
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:28:58.314Z"
+              "WhenOpened": "2024-06-02T14:01:27.74Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Receipt.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Receipt.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Receipt.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Receipt.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Forms\\Receipt.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T02:28:42.341Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ShopForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\ShopForm.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAWwCkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:49:01.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Receipt.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Receipt.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Receipt.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Receipt.cs",
+              "RelativeToolTip": "CanteenApp\\Forms\\Receipt.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T02:45:01.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\UserSession.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\UserSession.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\UserSession.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:49:38.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBAuth.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBAuth.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBAuth.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBAuth.cs",
+              "RelativeToolTip": "CanteenApp\\Controllers\\DBAuth.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:04:42.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs",
+              "RelativeToolTip": "CanteenApp\\MainForm.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAowJUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T03:54:52.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:09:27.999Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBTransaction.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBTransaction.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBTransaction.cs",
+              "RelativeToolTip": "CanteenApp\\Controllers\\DBTransaction.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:54:07.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShopForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ShopForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\ShopForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:29:16.934Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\LoginForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\LoginForm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:06:14.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\UserModel.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:06:00.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\RegisterForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\RegisterForm.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAwwEEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:20:22.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:57:03.347Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Program.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Program.cs",
+              "RelativeToolTip": "CanteenApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:49:04.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "DBProducts.cs",
               "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBProducts.cs",
               "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBProducts.cs",
               "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBProducts.cs",
               "RelativeToolTip": "CanteenApp\\Controllers\\DBProducts.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAACUAAABFAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAwwKAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T22:54:09.495Z"
+              "WhenOpened": "2024-05-12T22:54:09.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
+              "Title": "DBCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCategory.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBCategory.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCategory.cs",
+              "RelativeToolTip": "CanteenApp\\Controllers\\DBCategory.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwGIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T04:01:26.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Product.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs",
+              "RelativeToolTip": "CanteenApp\\Forms\\Product.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:30:54.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ProductForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ProductForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\ProductForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T16:30:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Product.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs",
               "RelativeDocumentMoniker": "CanteenApp\\Forms\\Product.cs",
               "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Product.cs [Design]",
               "RelativeToolTip": "CanteenApp\\Forms\\Product.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:12:07.059Z"
+              "WhenOpened": "2024-05-23T04:35:49.919Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCategory.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBCategory.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCategory.cs",
-              "RelativeToolTip": "CanteenApp\\Controllers\\DBCategory.cs",
-              "ViewState": "AQIAAGIAAAAAxszMzMz8v28AAAA4AAAA",
+              "DocumentIndex": 22,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Pages\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T04:01:26.651Z"
+              "WhenOpened": "2024-05-10T13:23:18.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\DashboardForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:45:41.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Category.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Category.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Forms\\Category.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:32:37.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Quantity.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Quantity.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Quantity.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Quantity.cs",
+              "RelativeToolTip": "CanteenApp\\Forms\\Quantity.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwBQAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:02:30.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Quantity.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Quantity.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Quantity.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Quantity.cs [Design]",
+              "RelativeToolTip": "CanteenApp\\Forms\\Quantity.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:59:02.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\CategoryForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\CategoryForm.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:26:02.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.Designer.cs",
+              "RelativeToolTip": "CanteenApp\\MainForm.Designer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:28:11.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HistoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Pages\\HistoryForm.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
+              "RelativeToolTip": "CanteenApp\\Pages\\HistoryForm.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwCQAAACqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:44:27.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DBTransactionItem.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBTransactionItem.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBTransactionItem.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBTransactionItem.cs",
+              "RelativeToolTip": "CanteenApp\\Controllers\\DBTransactionItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:16:17.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TransactionItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\TransactionItemModel.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\TransactionItemModel.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\TransactionItemModel.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\TransactionItemModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:09:38.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DBCart.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCart.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Controllers\\DBCart.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Controllers\\DBCart.cs",
+              "RelativeToolTip": "CanteenApp\\Controllers\\DBCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:51:54.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TransactionModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\TransactionModel.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\TransactionModel.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\TransactionModel.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\TransactionModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:40:37.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\CartModel.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\CartModel.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\CartModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:52:21.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "CanteenApp\\Models\\CategoryModel.cs",
@@ -209,117 +640,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 37,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs",
               "RelativeDocumentMoniker": "CanteenApp\\Forms\\Category.cs",
               "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs",
               "RelativeToolTip": "CanteenApp\\Forms\\Category.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAvAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwDUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T11:26:55.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\CategoryForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\CategoryForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Pages\\CategoryForm.cs [Design]",
+              "DocumentIndex": 38,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "CanteenApp\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Models\\ProductModel.cs",
+              "RelativeToolTip": "CanteenApp\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAYAAABgMDMzMzMkwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:28:40.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Category.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Forms\\Category.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Forms\\Category.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Forms\\Category.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T03:15:31.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HistoryForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\HistoryForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Pages\\HistoryForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:29:28.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Pages\\DashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:23:18.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HistoryForm.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\HistoryForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\HistoryForm.cs",
-              "RelativeToolTip": "CanteenApp\\Pages\\HistoryForm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:44:27.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\DashboardForm.cs",
-              "RelativeToolTip": "CanteenApp\\Pages\\DashboardForm.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:45:41.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T23:09:27.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ShopForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\Pages\\ShopForm.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\Pages\\ShopForm.cs [Design]",
-              "RelativeToolTip": "CanteenApp\\Pages\\ShopForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:29:16.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "CanteenApp\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Aex\\source\\repos\\CanteenApp\\CanteenApp\\MainForm.Designer.cs",
-              "RelativeToolTip": "CanteenApp\\MainForm.Designer.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAowLIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:28:11.289Z"
+              "WhenOpened": "2024-05-12T22:55:16.893Z"
             }
           ]
         },

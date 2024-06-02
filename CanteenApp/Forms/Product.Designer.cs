@@ -51,20 +51,21 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
             this.panel1.Controls.Add(this.labelHeader);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(384, 77);
+            this.panel1.Size = new System.Drawing.Size(384, 63);
             this.panel1.TabIndex = 0;
             // 
             // labelHeader
             // 
             this.labelHeader.AutoSize = true;
-            this.labelHeader.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHeader.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHeader.Location = new System.Drawing.Point(12, 21);
             this.labelHeader.Name = "labelHeader";
-            this.labelHeader.Size = new System.Drawing.Size(144, 29);
+            this.labelHeader.Size = new System.Drawing.Size(113, 23);
             this.labelHeader.TabIndex = 0;
             this.labelHeader.Text = "Add Product";
             // 
@@ -83,9 +84,9 @@
             this.panel2.Controls.Add(this.labelDescription);
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.labelCategory);
-            this.panel2.Location = new System.Drawing.Point(12, 83);
+            this.panel2.Location = new System.Drawing.Point(12, 64);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(360, 529);
+            this.panel2.Size = new System.Drawing.Size(360, 502);
             this.panel2.TabIndex = 3;
             // 
             // imgProduct
@@ -95,8 +96,8 @@
             this.imgProduct.IconChar = FontAwesome.Sharp.IconChar.Image;
             this.imgProduct.IconColor = System.Drawing.SystemColors.Desktop;
             this.imgProduct.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.imgProduct.IconSize = 89;
-            this.imgProduct.Location = new System.Drawing.Point(133, 27);
+            this.imgProduct.IconSize = 100;
+            this.imgProduct.Location = new System.Drawing.Point(137, 27);
             this.imgProduct.Name = "imgProduct";
             this.imgProduct.Size = new System.Drawing.Size(100, 89);
             this.imgProduct.TabIndex = 13;
@@ -106,106 +107,106 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 23);
+            this.label1.Size = new System.Drawing.Size(41, 19);
             this.label1.TabIndex = 12;
             this.label1.Text = "Image";
             // 
             // cbxCategory
             // 
-            this.cbxCategory.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxCategory.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxCategory.FormattingEnabled = true;
-            this.cbxCategory.Location = new System.Drawing.Point(0, 148);
+            this.cbxCategory.Location = new System.Drawing.Point(0, 146);
             this.cbxCategory.Name = "cbxCategory";
-            this.cbxCategory.Size = new System.Drawing.Size(360, 31);
+            this.cbxCategory.Size = new System.Drawing.Size(360, 27);
             this.cbxCategory.TabIndex = 11;
             this.cbxCategory.Text = "Pilih kategori";
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(0, 220);
+            this.txtName.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(0, 218);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(360, 30);
+            this.txtName.Size = new System.Drawing.Size(360, 27);
             this.txtName.TabIndex = 10;
             // 
             // labelName
             // 
             this.labelName.AutoSize = true;
-            this.labelName.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelName.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelName.Location = new System.Drawing.Point(0, 193);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(45, 23);
+            this.labelName.Size = new System.Drawing.Size(39, 19);
             this.labelName.TabIndex = 9;
             this.labelName.Text = "Name";
             // 
             // txtStock
             // 
-            this.txtStock.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStock.Location = new System.Drawing.Point(0, 290);
+            this.txtStock.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStock.Location = new System.Drawing.Point(0, 288);
             this.txtStock.Name = "txtStock";
-            this.txtStock.Size = new System.Drawing.Size(360, 30);
+            this.txtStock.Size = new System.Drawing.Size(360, 27);
             this.txtStock.TabIndex = 8;
             // 
             // labelStock
             // 
             this.labelStock.AutoSize = true;
-            this.labelStock.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStock.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStock.Location = new System.Drawing.Point(1, 263);
             this.labelStock.Name = "labelStock";
-            this.labelStock.Size = new System.Drawing.Size(45, 23);
+            this.labelStock.Size = new System.Drawing.Size(38, 19);
             this.labelStock.TabIndex = 7;
             this.labelStock.Text = "Stock";
             // 
             // txtPrice
             // 
-            this.txtPrice.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(0, 360);
+            this.txtPrice.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice.Location = new System.Drawing.Point(0, 358);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(360, 30);
+            this.txtPrice.Size = new System.Drawing.Size(360, 27);
             this.txtPrice.TabIndex = 6;
             // 
             // labelPrice
             // 
             this.labelPrice.AutoSize = true;
-            this.labelPrice.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrice.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrice.Location = new System.Drawing.Point(0, 333);
             this.labelPrice.Name = "labelPrice";
-            this.labelPrice.Size = new System.Drawing.Size(42, 23);
+            this.labelPrice.Size = new System.Drawing.Size(36, 19);
             this.labelPrice.TabIndex = 5;
             this.labelPrice.Text = "Price";
             // 
             // txtDescription
             // 
-            this.txtDescription.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescription.Location = new System.Drawing.Point(0, 430);
+            this.txtDescription.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescription.Location = new System.Drawing.Point(0, 428);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(360, 30);
+            this.txtDescription.Size = new System.Drawing.Size(360, 27);
             this.txtDescription.TabIndex = 4;
             // 
             // labelDescription
             // 
             this.labelDescription.AutoSize = true;
-            this.labelDescription.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDescription.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescription.Location = new System.Drawing.Point(0, 403);
             this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(81, 23);
+            this.labelDescription.Size = new System.Drawing.Size(68, 19);
             this.labelDescription.TabIndex = 3;
             this.labelDescription.Text = "Description";
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.Silver;
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(43)))), ((int)(((byte)(222)))));
             this.btnAdd.FlatAppearance.BorderSize = 0;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
             this.btnAdd.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnAdd.IconColor = System.Drawing.Color.Black;
             this.btnAdd.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAdd.Location = new System.Drawing.Point(0, 484);
+            this.btnAdd.Location = new System.Drawing.Point(0, 465);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(360, 30);
             this.btnAdd.TabIndex = 2;
@@ -216,10 +217,10 @@
             // labelCategory
             // 
             this.labelCategory.AutoSize = true;
-            this.labelCategory.Font = new System.Drawing.Font("Bahnschrift Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCategory.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCategory.Location = new System.Drawing.Point(0, 121);
             this.labelCategory.Name = "labelCategory";
-            this.labelCategory.Size = new System.Drawing.Size(66, 23);
+            this.labelCategory.Size = new System.Drawing.Size(56, 19);
             this.labelCategory.TabIndex = 0;
             this.labelCategory.Text = "Category";
             // 
@@ -227,12 +228,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 624);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.ClientSize = new System.Drawing.Size(384, 571);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Product";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Category";
+            this.Text = "Product";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

@@ -102,8 +102,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\DBAuth.cs" />
+    <Compile Include="Controllers\DBCart.cs" />
     <Compile Include="Controllers\DBCategory.cs" />
     <Compile Include="Controllers\DBProducts.cs" />
+    <Compile Include="Controllers\DBTransaction.cs" />
+    <Compile Include="Controllers\DBTransactionItem.cs" />
     <Compile Include="Forms\Product.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,14 +120,31 @@
     <Compile Include="Forms\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Quantity.Designer.cs">
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Receipt.Designer.cs">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartModel.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\TransactionItemModel.cs" />
+    <Compile Include="Models\TransactionModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\UserSession.cs" />
     <Compile Include="Pages\CategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,11 +163,23 @@
     <Compile Include="Pages\HistoryForm.Designer.cs">
       <DependentUpon>HistoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pages\ProductForm.Designer.cs">
       <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\ShopForm.cs">
       <SubType>Form</SubType>
@@ -162,6 +195,12 @@
     <EmbeddedResource Include="Forms\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Quantity.resx">
+      <DependentUpon>Quantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Receipt.resx">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,8 +210,20 @@
     <EmbeddedResource Include="Pages\DashboardForm.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ShopForm.resx">
+      <DependentUpon>ShopForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
