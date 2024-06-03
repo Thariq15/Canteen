@@ -32,6 +32,11 @@ namespace CanteenApp.Forms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (txtQty.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Banyak produk harus diisi");
+                return;
+            }
             quantity = Convert.ToInt32(txtQty.Text);
             subTotal = price * quantity;
             CartModel cart = new CartModel(productId, productName, price, quantity, subTotal);

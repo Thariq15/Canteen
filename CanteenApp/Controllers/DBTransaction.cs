@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace CanteenApp.Controllers
 {
@@ -67,6 +68,20 @@ namespace CanteenApp.Controllers
             adapter.Fill(dataTable);
             dgv.DataSource = dataTable;
             connection.Close();
+        }
+
+        public TransactionModel GetTransaction(string code)
+        {
+            NpgsqlCommand command = new NpgsqlCommand();
+            NpgsqlConnection connection = GetConnection();
+            command.CommandText = "SELECT * FROM transactions WHERE transaction_code = '" + code + "'";
+            command.Connection = connection;
+            NpgsqlDataReader reader;
+            reader = command.ExecuteReader();
+            reader.Read();
+            TransactionModel transaction = new TransactionModel(reader["transaction_code"].ToString(), Convert.ToInt32(reader["admin_id"]), reader["customer_name"].ToString(), Convert.ToInt32(reader["total_price"]), Convert.ToInt32(reader["total_payment"]), Convert.ToInt32(reader["change"]), Convert.ToDateTime(reader["transaction_date"]));
+            connection.Close();
+            return transaction;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CanteenApp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace CanteenApp.Pages
         public DashboardForm()
         {
             InitializeComponent();
+        }
+
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+            labelDashboard.Text = "Selamat datang " + UserSession.Name;
         }
     }
 }

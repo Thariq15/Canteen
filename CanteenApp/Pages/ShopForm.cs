@@ -20,7 +20,7 @@ namespace CanteenApp.Pages
         Receipt receipt;
         public string transactionCode, customerName;
         public DateTime transactionDate;
-        public int adminId, totalPrice, totalPayment, change;
+        public int totalPrice, totalPayment, change;
 
         public ShopForm()
         {
@@ -129,6 +129,26 @@ namespace CanteenApp.Pages
 
         private void checkoutButton_Click(object sender, EventArgs e)
         {
+            if (txtCustName.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Nama pelanggan harus diisi");
+                return;
+            }
+            if (txtTotalPayment.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Total bayar harus diisi");
+                return;
+            }
+            if (txtTotalPrice.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Keranjang tidak boleh kosong");
+                return;
+            }
+            if (dgvCart.Rows.Count == 0)
+            {
+                MessageBox.Show("Keranjang tidak boleh kosong");
+                return;
+            }
             DateTime now = DateTime.Now;
             DateTimeOffset dateTimeOffset = new DateTimeOffset(now);
             long unixTimestamp = dateTimeOffset.ToUnixTimeSeconds();

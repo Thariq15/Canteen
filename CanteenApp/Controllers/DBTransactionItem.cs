@@ -1,7 +1,9 @@
 ﻿using CanteenApp.Models;
 using Npgsql;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,6 +50,19 @@ namespace CanteenApp.Controllers
             {
                 MessageBox.Show(ex.Message, "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            connection.Close();
+        }
+
+        public void FillReceipt(string code, DataGridView dgv)
+        {
+            NpgsqlCommand command = new NpgsqlCommand();
+            NpgsqlConnection connection = GetConnection();
+            command.CommandText = "SELECT a.name, a.price, b.quantity as qty, b.sub_total as subtotal FROM products a JOIN transaction_items b ON a.id = b.product_id WHERE transaction_code = '" + code + "'";
+            command.Connection = connection;
+            NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
+            dgv.DataSource = dataTable;
             connection.Close();
         }
     }

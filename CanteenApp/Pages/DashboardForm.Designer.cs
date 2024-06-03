@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelDashboard = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // labelDashboard
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(390, 188);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Dashboard";
+            this.labelDashboard.AutoSize = true;
+            this.labelDashboard.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDashboard.Location = new System.Drawing.Point(12, 9);
+            this.labelDashboard.Name = "labelDashboard";
+            this.labelDashboard.Size = new System.Drawing.Size(99, 29);
+            this.labelDashboard.TabIndex = 0;
+            this.labelDashboard.Text = "Dashboard";
             // 
             // DashboardForm
             // 
@@ -46,9 +47,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelDashboard);
             this.Name = "DashboardForm";
             this.Text = "DashboardForm";
+            this.Load += new System.EventHandler(this.DashboardForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -56,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelDashboard;
     }
 }

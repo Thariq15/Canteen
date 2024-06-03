@@ -1,4 +1,5 @@
-﻿using CanteenApp.Models;
+﻿using CanteenApp.Controllers;
+using CanteenApp.Models;
 using CanteenApp.Pages;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,20 @@ namespace CanteenApp.Forms
             txtTotalPayment.Text = payment.ToString();
             txtChange.Text = change.ToString();
             dgvCart.DataSource = dataTable;
+        }
+
+        public void DetailReceipt(string code)
+        {
+            DBTransaction dBTransaction = new DBTransaction();
+            TransactionModel transaction = dBTransaction.GetTransaction(code);
+            labelName.Text = ": " + transaction.CustomerName;
+            labelDate.Text = ": " + transaction.TransactionDate;
+            labelCode.Text = ": " + transaction.TransactionCode;
+            txtTotalPrice.Text = transaction.TotalPrice.ToString();
+            txtTotalPayment.Text = transaction.TotalPayment.ToString();
+            txtChange.Text = transaction.Change.ToString();
+            DBTransactionItem dBTransactionItem = new DBTransactionItem();
+            dBTransactionItem.FillReceipt(code, dgvCart);
         }
     }
 }
